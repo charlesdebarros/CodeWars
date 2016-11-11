@@ -34,6 +34,6 @@ def feuer_frei(concentration, barrels):
     else:
         return (fuel - 100)
 
-puts(feuer_frei(5, 20), "Perfekt!")
-puts(feuer_frei(5, 200), 900)
-puts(feuer_frei(5, 2), "90 Stunden mehr Benzin ben%stigt." % chr(246))
+print(feuer_frei(5, 20), "Perfekt!")
+print(feuer_frei(5, 200), 900)
+print(feuer_frei(5, 2), "90 Stunden mehr Benzin ben%stigt." % chr(246))

@@ -6,5 +6,5 @@
 def ifChuckSaysSo():
     return 0
 
-puts ("One and only test")
-puts (ifChuckSaysSo(), False)
+print ("One and only test")
+print (ifChuckSaysSo(), False)
